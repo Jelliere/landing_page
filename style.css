@@ -1,0 +1,41 @@
+.header,
+.lower-header,
+.footer {
+    background-color: #1F2937;
+}
+
+.header .left,
+.lower-header .left .title {
+    color: #f9faf8;
+}
+
+.header .right,
+.lower-header .right {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.second-half {
+    background-color: #e5e7eb;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
+}
